@@ -1,0 +1,39 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:ruby"
+    },
+    "2": {
+      "item": "tripwired:ruby"
+    },
+    "3": {
+      "item": "tripwired:ruby"
+    },
+    "4": {
+      "item": "tripwired:ruby"
+    },
+    "5": {
+      "item": "tripwired:ruby"
+    },
+    "6": {
+      "item": "tripwired:ruby"
+    },
+    "7": {
+      "item": "tripwired:ruby"
+    },
+    "8": {
+      "item": "tripwired:ruby"
+    }
+  },
+  "result": {
+    "item": "tripwired:ruby_1_armor_chestplate",
+    "count": 1
+  }
+}
