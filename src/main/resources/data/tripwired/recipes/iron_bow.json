@@ -1,0 +1,36 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "tripwired:iron_stick"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "tripwired:iron_stick"
+    },
+    "4": {
+      "item": "minecraft:bow"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "tripwired:iron_stick"
+    },
+    "8": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "tripwired:iron_bowa",
+    "count": 1
+  }
+}

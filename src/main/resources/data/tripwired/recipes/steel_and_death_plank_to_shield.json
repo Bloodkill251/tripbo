@@ -1,0 +1,36 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:death_plank"
+    },
+    "1": {
+      "item": "tripwired:steel_ingot"
+    },
+    "2": {
+      "item": "tripwired:death_plank"
+    },
+    "3": {
+      "item": "tripwired:death_plank"
+    },
+    "4": {
+      "item": "tripwired:death_plank"
+    },
+    "5": {
+      "item": "tripwired:death_plank"
+    },
+    "7": {
+      "item": "tripwired:death_plank"
+    }
+  },
+  "result": {
+    "item": "minecraft:shield",
+    "count": 1
+  }
+}

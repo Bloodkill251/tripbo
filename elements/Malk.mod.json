@@ -1,0 +1,33 @@
+{
+  "_fv": 13,
+  "_type": "fluid",
+  "definition": {
+    "name": "Malk",
+    "textureStill": "milktexture",
+    "textureFlowing": "milktexture",
+    "luminosity": 5,
+    "density": 2000,
+    "viscosity": 100000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      },
+      {
+        "value": "plains"
+      }
+    ],
+    "onEntityCollides": {
+      "name": "MalkMobplayerCollidesBlock"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/death_log_top",
+    "up": "tripwired:blocks/death_log_top",
+    "north": "tripwired:blocks/death_log_side",
+    "east": "tripwired:blocks/death_log_side",
+    "south": "tripwired:blocks/death_log_side",
+    "west": "tripwired:blocks/death_log_side",
+    "particle": "tripwired:blocks/death_log_top"
+  }
+}

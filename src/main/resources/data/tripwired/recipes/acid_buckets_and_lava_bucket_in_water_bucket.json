@@ -1,0 +1,42 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:acid_bucket_2"
+    },
+    "1": {
+      "item": "tripwired:acid_bucket_2"
+    },
+    "2": {
+      "item": "tripwired:acid_bucket_2"
+    },
+    "3": {
+      "item": "tripwired:acid_bucket_2"
+    },
+    "4": {
+      "item": "minecraft:lava_bucket"
+    },
+    "5": {
+      "item": "tripwired:acid_bucket_2"
+    },
+    "6": {
+      "item": "tripwired:acid_bucket_2"
+    },
+    "7": {
+      "item": "tripwired:acid_bucket_2"
+    },
+    "8": {
+      "item": "tripwired:acid_bucket_2"
+    }
+  },
+  "result": {
+    "item": "minecraft:water_bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:steel_ingot"
+    },
+    "1": {
+      "item": "tripwired:acidic_apple"
+    },
+    "2": {
+      "item": "tripwired:steel_ingot"
+    },
+    "4": {
+      "item": "tripwired:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "tripwired:acid_bucket_2",
+    "count": 1
+  }
+}

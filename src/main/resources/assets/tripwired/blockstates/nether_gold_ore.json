@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tripwired:block/nether_gold_ore"
+    }
+  }
+}

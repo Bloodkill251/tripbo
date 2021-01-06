@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/ancient_debris_top",
+    "up": "tripwired:blocks/ancient_debris_top",
+    "north": "tripwired:blocks/ancient_debris_side",
+    "east": "tripwired:blocks/ancient_debris_side",
+    "south": "tripwired:blocks/ancient_debris_side",
+    "west": "tripwired:blocks/ancient_debris_side",
+    "particle": "tripwired:blocks/ancient_debris_top"
+  }
+}

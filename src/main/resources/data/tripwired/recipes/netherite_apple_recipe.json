@@ -1,0 +1,16 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tripwired:diamond_apple"
+    },
+    {
+      "item": "tripwired:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "tripwired:netherite_apple",
+    "count": 1
+  }
+}

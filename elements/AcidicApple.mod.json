@@ -1,0 +1,31 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "apple",
+    "customModelName": "Normal",
+    "name": "Acidic Apple",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Grants Acid Immunity for 5 minutes."
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 5,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "AcidicAppleFoodEaten"
+    }
+  }
+}

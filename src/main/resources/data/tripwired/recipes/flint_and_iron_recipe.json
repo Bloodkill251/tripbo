@@ -1,0 +1,20 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:flint"
+    },
+    "2": {
+      "item": "tripwired:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "tripwired:silent_dimension",
+    "count": 1
+  }
+}

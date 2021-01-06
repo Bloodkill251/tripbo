@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "tripwired:block/silent_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "tripwired:block/silent_dimension_portal_ns"
+    }
+  }
+}

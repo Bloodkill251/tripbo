@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/sapphire_block",
+    "up": "tripwired:blocks/sapphire_block",
+    "north": "tripwired:blocks/sapphire_block",
+    "east": "tripwired:blocks/sapphire_block",
+    "south": "tripwired:blocks/sapphire_block",
+    "west": "tripwired:blocks/sapphire_block",
+    "particle": "tripwired:blocks/sapphire_block"
+  }
+}

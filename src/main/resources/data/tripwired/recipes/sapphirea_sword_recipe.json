@@ -1,0 +1,24 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:sapphire"
+    },
+    "1": {
+      "item": "tripwired:sapphire_block"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tripwired:sapphirea_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "tripwired:ancient_debris"
+  },
+  "result": {
+    "item": "tripwired:netherite_scrap"
+  }
+}

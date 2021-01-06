@@ -1,0 +1,1615 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "IronAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronApple",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_apple"
+    },
+    {
+      "name": "CoalAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoalApple",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_apple"
+    },
+    {
+      "name": "IronAppleRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_apple_recipe"
+    },
+    {
+      "name": "CoalAppleRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_apple_recipe"
+    },
+    {
+      "name": "NetherGoldOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_gold_ore"
+    },
+    {
+      "name": "NetherGoldOreLootTable",
+      "type": "loottable",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_gold_ore_loot_table"
+    },
+    {
+      "name": "AncientDebris",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient_debris"
+    },
+    {
+      "name": "NetheriteScrap",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_scrap"
+    },
+    {
+      "name": "NetheriteScrapRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_scrap_recipe"
+    },
+    {
+      "name": "NetheriteIngot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ingot"
+    },
+    {
+      "name": "NetheriteIngotRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ingot_recipe"
+    },
+    {
+      "name": "NetheritePickaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_pickaxe"
+    },
+    {
+      "name": "UpgradeGUI",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondToNetheriteUpgradeGUI",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_to_netherite_upgrade_gui"
+    },
+    {
+      "name": "DiamondAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondApple",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_apple"
+    },
+    {
+      "name": "DiamondAppleRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_apple_recipe"
+    },
+    {
+      "name": "RedstoneAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedstoneApple",
+      "type": "food",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_apple"
+    },
+    {
+      "name": "RedstoneAppleRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_apple_recipe"
+    },
+    {
+      "name": "UpgradeKeybindOnKeyPressed",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_keybind_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpgradeKeybind",
+      "type": "keybind",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_keybind"
+    },
+    {
+      "name": "NetheriteAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_axe"
+    },
+    {
+      "name": "Netherite",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid"
+    },
+    {
+      "name": "GmspCommandExecuted",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gmsp_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gmsp",
+      "type": "command",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gmsp"
+    },
+    {
+      "name": "GmsCommandExecuted",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gms_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gms",
+      "type": "command",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gms"
+    },
+    {
+      "name": "GmcCommandExecuted",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gmc_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gmc",
+      "type": "command",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gmc"
+    },
+    {
+      "name": "AcidImmunity",
+      "type": "potion",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_immunity"
+    },
+    {
+      "name": "AcidicAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acidic_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AcidicApple",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acidic_apple"
+    },
+    {
+      "name": "AcidicAppleRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acidic_apple_recipe"
+    },
+    {
+      "name": "AppledroppedinAcid",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "appledroppedin_acid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EclearCommandExecuted",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eclear_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eclear",
+      "type": "command",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eclear"
+    },
+    {
+      "name": "LapisAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LapisApple",
+      "type": "food",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_apple"
+    },
+    {
+      "name": "LapisAppleRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_apple_recipe"
+    },
+    {
+      "name": "EmeraldAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldApple",
+      "type": "food",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_apple"
+    },
+    {
+      "name": "EmeraldAppleREcipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_apple_r_ecipe"
+    },
+    {
+      "name": "NetheriteAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteApple",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_apple"
+    },
+    {
+      "name": "NetheriteAppleRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_apple_recipe"
+    },
+    {
+      "name": "WitherSkeletonSkullApple",
+      "type": "food",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_skeleton_skull_apple"
+    },
+    {
+      "name": "AllowedExplosive",
+      "type": "potion",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "allowed_explosive"
+    },
+    {
+      "name": "ExplosiveOnKeyPressed",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherSkeletonSkullAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_skeleton_skull_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explosive",
+      "type": "keybind",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive"
+    },
+    {
+      "name": "NetherStarApple",
+      "type": "food",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_star_apple"
+    },
+    {
+      "name": "NetherStarAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_star_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherSkeletonSkullAppleRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_skeleton_skull_apple_recipe"
+    },
+    {
+      "name": "NetherStarAppleRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_star_apple_recipe"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyOreSmeltingIntoRuby",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_smelting_into_ruby"
+    },
+    {
+      "name": "RubyOreLootTable",
+      "type": "loottable",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_loot_table"
+    },
+    {
+      "name": "MilkOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milk_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Milk",
+      "type": "potion",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milk"
+    },
+    {
+      "name": "Malk",
+      "type": "fluid",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malk"
+    },
+    {
+      "name": "MalkMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malk_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmor",
+      "type": "armor",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "IronStick",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_stick"
+    },
+    {
+      "name": "IronBowa",
+      "type": "gun",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_bowa"
+    },
+    {
+      "name": "IronBow",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_bow"
+    },
+    {
+      "name": "DeadGrass",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_grass"
+    },
+    {
+      "name": "DeadGrassLootTable",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_grass_loot_table"
+    },
+    {
+      "name": "Silent",
+      "type": "biome",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silent"
+    },
+    {
+      "name": "HungerCommandExecuted",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hunger_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hunger",
+      "type": "command",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hunger"
+    },
+    {
+      "name": "SteakCommandExecuted",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steak_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Steak",
+      "type": "command",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steak"
+    },
+    {
+      "name": "RegenCommandExecuted",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regen_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Regen",
+      "type": "command",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regen"
+    },
+    {
+      "name": "DeathLeave",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_leave"
+    },
+    {
+      "name": "DeathLog",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_log"
+    },
+    {
+      "name": "EmeraldHelmetRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_helmet_recipe"
+    },
+    {
+      "name": "EmeraldChestplateRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_chestplate_recipe"
+    },
+    {
+      "name": "EmeraldLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_leggings_recipe"
+    },
+    {
+      "name": "EmeraldBootsRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_boots_recipe"
+    },
+    {
+      "name": "SilentDimension",
+      "type": "dimension",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silent_dimension"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot"
+    },
+    {
+      "name": "SteelOre",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ore"
+    },
+    {
+      "name": "SteelOreToSteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ore_to_steel_ingot_recipe"
+    },
+    {
+      "name": "FlintAndIronRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flint_and_iron_recipe"
+    },
+    {
+      "name": "IronOreLootTable",
+      "type": "loottable",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_ore_loot_table"
+    },
+    {
+      "name": "DeathLeaveLootTable",
+      "type": "loottable",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_leave_loot_table"
+    },
+    {
+      "name": "DeathLogToOakLog",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_log_to_oak_log"
+    },
+    {
+      "name": "SteelIngotToIronIngot",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot_to_iron_ingot"
+    },
+    {
+      "name": "AcidicAppleCraftingRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acidic_apple_crafting_recipe"
+    },
+    {
+      "name": "AcidBucketRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_bucket_recipe"
+    },
+    {
+      "name": "DeathPlank",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank"
+    },
+    {
+      "name": "DeathLogToDeathPlank",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_log_to_death_plank"
+    },
+    {
+      "name": "DeathPlankToSticks",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank_to_sticks"
+    },
+    {
+      "name": "DeathPlankToWoodenPickaxe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank_to_wooden_pickaxe"
+    },
+    {
+      "name": "DeathPlanktoWoodenAxe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plankto_wooden_axe"
+    },
+    {
+      "name": "DeathPlankToWoodenSword",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank_to_wooden_sword"
+    },
+    {
+      "name": "DeathPlankToWoodenShovel",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank_to_wooden_shovel"
+    },
+    {
+      "name": "DeathPlankToWoodenHoe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank_to_wooden_hoe"
+    },
+    {
+      "name": "SteelAndDeathPlankToShield",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_and_death_plank_to_shield"
+    },
+    {
+      "name": "DeathPlankFuel",
+      "type": "fuel",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank_fuel"
+    },
+    {
+      "name": "DeathLogFuel",
+      "type": "fuel",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_log_fuel"
+    },
+    {
+      "name": "AcidAndFlintAndIronIntoLava",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_and_flint_and_iron_into_lava"
+    },
+    {
+      "name": "AcidBucket2",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_bucket_2"
+    },
+    {
+      "name": "DeathPlankToCraftingTable",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank_to_crafting_table"
+    },
+    {
+      "name": "AcidBucketsAndLavaBucketInWaterBucket",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_buckets_and_lava_bucket_in_water_bucket"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire"
+    },
+    {
+      "name": "SapphireBlock",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_block"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore"
+    },
+    {
+      "name": "SapphireArmorArmor",
+      "type": "armor",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SapphireArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "SapphireArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor_body_recipe"
+    },
+    {
+      "name": "SapphireArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "SapphireBootsRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_boots_recipe"
+    },
+    {
+      "name": "SapphireOreLootTable",
+      "type": "loottable",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore_loot_table"
+    },
+    {
+      "name": "SapphireaPickaxe",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_pickaxe"
+    },
+    {
+      "name": "SapphireaAxe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_axe"
+    },
+    {
+      "name": "SapphireaSword",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_sword"
+    },
+    {
+      "name": "SapphireaShovel",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_shovel"
+    },
+    {
+      "name": "SapphireaHoe",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_hoe"
+    },
+    {
+      "name": "SapphireaPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_pickaxe_recipe"
+    },
+    {
+      "name": "SapphireaAxeRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_axe_recipe"
+    },
+    {
+      "name": "SapphireaSwordRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_sword_recipe"
+    },
+    {
+      "name": "SapphireaShovelRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_shovel_recipe"
+    },
+    {
+      "name": "SapphireaHoeRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphirea_hoe_recipe"
+    },
+    {
+      "name": "SapphireBlockRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_block_recipe"
+    },
+    {
+      "name": "DeathPlankToOakPlank",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_plank_to_oak_plank"
+    },
+    {
+      "name": "VoidBlock",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_block"
+    },
+    {
+      "name": "Voided",
+      "type": "biome",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voided"
+    },
+    {
+      "name": "VoidLiquid",
+      "type": "fluid",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_liquid"
+    },
+    {
+      "name": "VoidDimension",
+      "type": "dimension",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_dimension"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.tripwired.emerald_apple": "Emerald Apple",
+      "item.tripwired.emerald_armor_helmet": "Emerald Helmet",
+      "item.tripwired.acid_bucket_2": "Acid Bucket",
+      "item.tripwired.diamond_apple": "Diamond Apple",
+      "block.tripwired.dead_grass": "Dead Grass",
+      "item.minecraft.splash_potion.effect.acid_immunity": "Splash Acid Immunity",
+      "subtitles.nyan_cat": "Meow",
+      "item.tripwired.sapphirea_axe": "Sapphire Axe",
+      "block.tripwired.steel_ore": "Steel Ore",
+      "effect.milk": "Milk",
+      "item.tripwired.sapphire": "Sapphire",
+      "item.minecraft.lingering_potion.effect.allowed_explosive": "Lingering Allowed Explosive",
+      "item.tripwired.sapphire_armor_armor_boots": "Sapphire Boots",
+      "item.minecraft.potion.effect.milk": "Milk",
+      "item.tripwired.void_dimension": "Void Igniter",
+      "item.minecraft.splash_potion.effect.milk": "Splash Milk",
+      "effect.acid_immunity": "Acid Immunity",
+      "block.tripwired.nether_gold_ore": "Nether Gold Ore",
+      "item.minecraft.splash_potion.effect.allowed_explosive": "Splash Allowed Explosive",
+      "item.tripwired.iron_stick": "Iron Stick",
+      "biome.tripwired.silent": "Silent",
+      "block.tripwired.sapphire_block": "Sapphire Block",
+      "item.minecraft.lingering_potion.effect.milk": "Lingering Milk",
+      "item.tripwired.silent_dimension": "Flint and Iron",
+      "item.tripwired.netherite_pickaxe": "Netherite Pickaxe",
+      "item.tripwired.netherite_boots": "Netherite Boots",
+      "item.minecraft.lingering_potion.effect.acid_immunity": "Lingering Acid Immunity",
+      "fluid.void_liquid": "VoidLiquid",
+      "fluid.acid": "Acid",
+      "item.tripwired.acidic_apple": "Acidic Apple",
+      "item.tripwired.sapphirea_pickaxe": "Sapphire Pickaxe",
+      "item.tripwired.wither_skeleton_skull_apple": "Wither Skeleton Skull Apple",
+      "item.tripwired.lapis_apple": "Lapis Apple",
+      "item.tripwired.netherite_leggings": "Netherite Leggings",
+      "block.tripwired.death_log": "Death Log",
+      "block.tripwired.void_block": "Void Block",
+      "item.tripwired.redstone_apple": "Redstone Apple",
+      "item.minecraft.tipped_arrow.effect.milk": "Arrow of Milk",
+      "block.tripwired.death_plank": "Death Plank",
+      "item.tripwired.sapphire_armor_armor_leggings": "Sapphire Leggings",
+      "item.tripwired.netherite_apple": "Netherite Apple",
+      "item.tripwired.sapphirea_shovel": "Sapphirea Shovel",
+      "item.tripwired.netherite_scrap": "Netherite Scrap",
+      "item.tripwired.emerald_armor_boots": "Emerald Boots",
+      "item.tripwired.netherite_ingot": "Netherite Ingot",
+      "block.tripwired.ruby_ore": "Ruby Ore",
+      "item.minecraft.tipped_arrow.effect.acid_immunity": "Arrow of Acid Immunity",
+      "key.mcreator.upgrade_keybind": "Upgrade",
+      "key.mcreator.explosive": "Explosive",
+      "item.tripwired.steel_ingot": "Steel Ingot",
+      "biome.tripwired.voided": "Voided",
+      "item.tripwired.netherite_chestplate": "Netherite Chestplate",
+      "block.tripwired.death_leave": "Death Leave",
+      "item.tripwired.sapphirea_sword": "Sapphirea Sword",
+      "subtitles.death_tone_1": "Sound Of A Deadly Entity",
+      "item.tripwired.sapphire_armor_armor_helmet": "Sapphire Helmet",
+      "item.tripwired.sapphire_armor_armor_chestplate": "Sapphire Chestplate",
+      "item.tripwired.emerald_armor_leggings": "Emerald Leggings",
+      "item.tripwired.sapphirea_hoe": "Sapphirea Hoe",
+      "item.tripwired.netherite_helmet": "Netherite Helmet",
+      "item.tripwired.emerald_armor_chestplate": "Emerald Chestplate",
+      "item.tripwired.netherite_axe": "Netherite Pickaxe",
+      "item.tripwired.coal_apple": "Coal Apple",
+      "effect.allowed_explosive": "Allowed Explosive",
+      "item.tripwired.iron_bowa": "Iron Bow",
+      "block.tripwired.sapphire_ore": "Sapphire Ore",
+      "fluid.malk": "Malk",
+      "item.minecraft.potion.effect.acid_immunity": "Acid Immunity",
+      "item.tripwired.malk_bucket": "Malk Bucket",
+      "item.minecraft.tipped_arrow.effect.allowed_explosive": "Arrow of Allowed Explosive",
+      "item.tripwired.ruby": "Ruby",
+      "item.tripwired.void_liquid_bucket": "VoidLiquid Bucket",
+      "block.tripwired.ancient_debris": "Ancient Debris",
+      "item.minecraft.potion.effect.allowed_explosive": "Allowed Explosive",
+      "item.tripwired.nether_star_apple": "Nether Star Apple",
+      "item.tripwired.iron_apple": "Iron Apple"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "tripwired",
+    "modName": "Tripwired",
+    "version": "1.0.0",
+    "author": "Blood, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.tripwired",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

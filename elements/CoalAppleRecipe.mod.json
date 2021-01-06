@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.APPLE"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.COAL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CoalApple"
+    },
+    "name": "coal_apple_recipe",
+    "namespace": "mod"
+  }
+}

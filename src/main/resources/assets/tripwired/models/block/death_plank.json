@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/death_planks",
+    "up": "tripwired:blocks/death_planks",
+    "north": "tripwired:blocks/death_planks",
+    "east": "tripwired:blocks/death_planks",
+    "south": "tripwired:blocks/death_planks",
+    "west": "tripwired:blocks/death_planks",
+    "particle": "tripwired:blocks/death_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tripwired:block/void_block"
+    }
+  }
+}

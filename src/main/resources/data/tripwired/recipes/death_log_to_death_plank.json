@@ -1,0 +1,16 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "tripwired:death_log"
+    }
+  },
+  "result": {
+    "item": "tripwired:death_plank",
+    "count": 1
+  }
+}

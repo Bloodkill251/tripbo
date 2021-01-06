@@ -1,0 +1,34 @@
+{
+  "group": "tripwired",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tripwired:netherite_scrap"
+    },
+    {
+      "item": "tripwired:netherite_scrap"
+    },
+    {
+      "item": "tripwired:netherite_scrap"
+    },
+    {
+      "item": "tripwired:netherite_scrap"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "tripwired:netherite_ingot",
+    "count": 1
+  }
+}

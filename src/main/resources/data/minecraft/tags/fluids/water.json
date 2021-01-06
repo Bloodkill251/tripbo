@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tripwired:acid",
+    "tripwired:acid_flowing",
+    "tripwired:malk",
+    "tripwired:malk_flowing",
+    "tripwired:void_liquid",
+    "tripwired:void_liquid_flowing"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tripwired:blocks/deathleaves",
+    "up": "tripwired:blocks/deathleaves",
+    "north": "tripwired:blocks/deathleaves",
+    "east": "tripwired:blocks/deathleaves",
+    "south": "tripwired:blocks/deathleaves",
+    "west": "tripwired:blocks/deathleaves",
+    "particle": "tripwired:blocks/deathleaves"
+  }
+}
